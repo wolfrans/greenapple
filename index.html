@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Green Apple | Food Processor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="slider-bg"></div>
+    <div class="container">
+      <img src="images/logo.jpg" alt="Green Apple Logo" style="height: 80px; margin-bottom: 10px;" />
+      <h1>Green Apple</h1>
+      <h2>Natural Healthy Homemade Goodness</h2>
+      <nav>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#projects">Special Orders</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="about-me">
+    <div class="container">
+      <h2>About Us</h2>
+      <p style="text-align:justify">
+        At <strong>Green Apple</strong>, we are passionate about producing fresh, healthy, and delicious foods. From soya milk and sobolo to local rice and meat pies, we craft each product with love and care. We also provide catering services for events and parties. In addition, we train others, particularly the youth, in food preparation and processing, empowering them with valuable skills for the future.
+      </p>
+    </div>
+  </section>
+
+  <section id="products" class="skills">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-img="images/soya.jpg"style="background-color: #5a934c;">🥛Soya Milk</div>
+        <div class="skill-card" data-img="images/sobolo.jpg"style="background-color: #44174e">🍷Sobolo Powder</div>
+        <div class="skill-card" data-img="images/rice.jpg"style="background-color: #225c66;">🍚Local Rice</div>
+        <div class="skill-card" data-img="images/honey.jpg"style="background-color: #8b6508;">🍯Pure Honey</div>
+        <div class="skill-card" data-img="images/grounded-egusi.jpg"style="background-color: #ed9e59;">🥣Grounded Egusi</div>
+        <div class="skill-card" data-img="images/soya.jpg"style="background-color: #2e6e4c;">👩‍🍳Cooking Services</div>
+        <div class="skill-card" data-img="images/dawadawa.jpg" style="background-color: #7b3f00;">🌰 Dawadawa</div>
+        <div class="skill-card" data-img="images/waakye-leaves.jpg" style="background-color: #35682d;">🍃 Waakye Leaves</div>
+        <div class="skill-card" data-img="images/turkey-berry.jpg" style="background-color: #5b8c5a;">🍒 Turkey Berry</div>
+        <div class="skill-card" data-img="images/ginger.jpg" style="background-color: #d08c2f;">🥔Powdered Ginger</div>
+        <div class="skill-card" data-img="images/prekese.jpg" style="background-color: #4e342e;">🌿 Prekese Powder</div>
+        <div class="skill-card" data-img="images/shea-butter.jpg" style="background-color: #c68c53;">🧴 Shea Butter</div>
+        <div class="skill-card" data-img="images/meat-pie.jpg" style="background-color: #283fc5;">🥟 Meat Pie</div>
+         <div class="skill-card" data-img="images/#.jpg"style="background-color: #31793d;">🍶Fresh Yoghurt</div>
+         <div class="skill-card" data-img="images/#.jpg"style="background-color: #380b15;">🍢 Khebab</div>
+         <div class="skill-card" data-img="images/#.jpg"style="background-color: #3d5014;">🥜Groundnut paste</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Special Orders</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Event Catering</h3>
+          <p>We provide tasty meals and drinks for weddings, funerals, school functions, and corporate events.</p>
+        </div>
+        <div class="project-card">
+          <h3>Personal Deliveries</h3>
+          <p>Order fresh yoghurt, sobolo, or soya milk and get them delivered right to your home or shop.</p>
+        </div>
+        <div class="project-card">
+          <h3>Custom Packages</h3>
+          <p>Build your own food combo package for parties or family meals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="pricing-options">
+        <div class="price-card">
+          <h3>Party Packages</h3>
+          <p>Contact for pricing</p>
+        </div>
+        <div class="price-card">
+          <h3>Retail Sales</h3>
+          <p>Soya Milk, Sobolo, Yoghurt – GHS 5 - 15</p>
+        </div>
+        <div class="price-card">
+          <h3>Catering Services</h3>
+          <p>Charged per event size</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Contact: 0205215844 | WhatsApp: 0261908767</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/233261908767" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
+  </a>
+<!-- Modal Structure -->
+<div id="product-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <img src="images/mj.jpg" alt="Product Image" id="modal-img" />
+  </div>
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
